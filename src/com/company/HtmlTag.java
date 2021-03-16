@@ -6,7 +6,7 @@ public class HtmlTag implements AutoCloseable {
     public HtmlTag(String znacznik){
         this.znacznik = "<"+znacznik+">";
         znacznikKonczacy = "</"+znacznik+">";
-        System.out.println(znacznik);
+        System.out.println(this.znacznik);
     }
     public void body(String text){
         System.out.println(text);
